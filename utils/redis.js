@@ -1,6 +1,5 @@
-import { createClient } from 'redis';
 import { promisify } from 'util';
-
+import { createClient } from 'redis';
 
 /**
  * Represents a Redis client.
